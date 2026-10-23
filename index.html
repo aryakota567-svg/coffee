@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+     <section >
+        <div class="flex flex-row justify-between flex-wrap  p-4 my-1   bg-[#FCFAF7] border-b border-zinc-200/60 ">
+            <div class="  font-extrabold bg-gradient-to-r from-[#3E2723] to-[#D4A373] bg-clip-text text-transparent text-[20px]"><span>🍂</span> Velvet Bean Café</div>
+            <div class="flex gap-6">
+                <a href="#home">Home</a>
+                <a href="#ourblends">Our Blends</a>
+                <a href="#AboutUs">About Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="home" class="relative overflow-hidden bg-gradient-to-b from-[#140C0B] via-[#231513] to-[#2D1B19]">
+
+  <div class="absolute top-0 right-0 -z-10 h-[300px] w-[300px] rounded-full bg-[#D4A373]/10 blur-[120px]"></div>
+  
+  <div class="mx-auto max-w-7xl px-6 py-16 md:py-24 flex flex-col md:flex-row items-center justify-between gap-12 min-h-[75vh]">
+    
+  
+    <div class="flex-1 text-center md:text-left max-w-xl">
+      <span class="inline-block text-[#D4A373] text-sm font-semibold tracking-wider uppercase mb-3">Premium Coffee Experience</span>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl text-[#FFFDF9] font-extrabold tracking-tight leading-[1.15] pb-2">
+        Roasted with <span class="text-[#D4A373]">Passion</span>, Brewed for Perfection.
+      </h1>
+      <p class="text-lg md:text-xl mt-4 text-zinc-300 font-light leading-relaxed">
+        Start your morning right with our ethically sourced, small-batch roasted premium blends.
+      </p>
+      
+     
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+        <a href="#ourblends"><button  class="bg-[#D4A373] text-[#271816] px-8 py-3.5 rounded-xl font-bold tracking-wide shadow-lg shadow-[#D4A373]/20 hover:bg-[#E5B484] hover:-translate-y-0.5 transition-all duration-300 active:translate-y-0">
+          Shop Our Blends
+        </button></a>
+       <a href="#AboutUs" > <button class="border border-zinc-500 text-[#FFFDF9] px-8 py-3.5 rounded-xl font-semibold tracking-wide hover:bg-white/5 hover:border-[#D4A373] transition-all duration-300">
+          Learn Our Story
+        </button></a>
+      </div>
+    </div>
+    
+   
+    <div class="flex-1 flex justify-center items-center w-full max-w-[500px] md:max-w-none">
+      <div class="relative group w-full aspect-square md:w-[500px] md:h-[500px]">
+       
+        <div class="absolute inset-0 bg-black/40 rounded-2xl blur-2xl transform group-hover:scale-105 transition-transform duration-500 -z-10"></div>
+        
+        <img 
+          src="./images/coffee.png.png" 
+         
+          class="w-full h-full object-cover rounded-2xl  "
+        />
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+   <section class="bg-[#FCFAF7] min-h-screen py-6 sm:py-10" id="ourblends">
+        <div>
+           <h1 class="font-bold text-center text-3xl sm:text-4xl text-[#3E2723] tracking-tight py-12"> The Barista’s Selection</h1>
+        </div>
+
+       <div>
+         <h3 class="text-xl sm:text-2xl font-bold tracking-tight text-[#3E2723] uppercase text-center">
+  ☕ Espresso & Milk-Based Specialties
+</h3>
+       </div>
+
+        <div class="flex flex-row justify-center flex-wrap gap-[80px] w-[full] p-12 ">
+
+        <div class="relative w-[300px] shadow-lg rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpRnZiQWzHRgp0-V5ocINYP2P9f6Fh30NQSjJp36wCSQ&s=10" class="h-[200px] w-[300px] rounded-t-xl "/>
+            
+            <div class="p-6">
+                <h1 class="text-zinc-900 font-bold ">Honey Lavender Macchiato</h1>
+                <p class="text-zinc-600 pt-3">Velvet espresso, creamy oat milk, floral lavender syrup, and local honey.</p>
+                <p class="text-[#3E2723] font-bold pt-3">price: $4.76</p>
+                <div class="absolute left-[-20px] top-[-10px] ">
+                    <h3 class="bg-green-50 text-green-800 p-1 rounded-lg animate-[bounce_2s_infinite]">🌿 Spring Feature</h3>
+                </div>
+                <div><button class=" text-[#FCFAF7] bg-[#3E2723] font-bold rounded-lg w-[100%] mt-4 py-3">Order Now</button></div>
+            </div>
+        </div>
+
+        
+        <div  class="relative w-[300px]  shadow-lg rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSjVuUQi56mFyn_Ix6mrxea8tlQeMmwXnacAm50yhIDw&s=10" class="h-[200px] w-[300px] rounded-t-xl"/>
+            <div  class="p-6">
+                <h1 class="text-zinc-900 font-bold ">White Chocolate Pistachio Latte</h1>
+                <p class="text-zinc-600 pt-3">Espresso with white chocolate, toasted pistachio syrup, and crushed nuts.</p>
+                <p class="text-[#3E2723] font-bold pt-3"> Price: $4.99</p>
+                <div class="absolute left-[-20px] top-[-10px]  ">
+                    <h3 class="bg-stone-100 text-stone-800 p-1 rounded-lg animate-[bounce_2s_infinite]">🥑 Creamy & Rich</h3>
+                </div>
+                <div><button class=" text-[#FCFAF7] bg-[#3E2723] font-bold rounded-lg w-[100%] mt-4 py-3">Order Now</button></div>
+            </div>
+        </div>
+
+        <div  class="relative w-[300px]  shadow-lg rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdkZHz3Z-AdVpSosmmX9e1nUb-2JwQ75RKsBRE8a3tHg&s=10" class="h-[200px] w-[300px] rounded-t-xl"/>
+        
+        <div  class="p-6">
+            <h1 class="text-zinc-900 font-bold ">Toasted Almond Praline Mocha</h1>
+            <p class="text-zinc-600 pt-3">Chocolate mocha with almond syrup and caramelized praline crunch.</p>
+            <p class="text-[#3E2723] font-bold pt-3">Price: $4.99 </p>
+            <div class="absolute left-[-20px] top-[-10px] ">
+                    <h3 class="bg-amber-100 text-amber-800 p-1 rounded-lg animate-[bounce_2s_infinite]">⚡ Barista's Pick</h3>
+                </div>
+                <div><button class=" text-[#FCFAF7] bg-[#3E2723] font-bold rounded-lg w-[100%] mt-4 py-3">Order Now</button></div>
+        </div>
+        </div>
+
+        </div>
+
+
+        <div>
+            <h3 class="text-xl sm:text-2xl font-bold tracking-tight text-[#3E2723] uppercase text-center mt-10 " >🧊 Iced & Cold Brew Refreshers</h3>
+        </div>
+
+         <div class="flex flex-row justify-center flex-wrap gap-[80px] w-[full] p-12 ">
+
+        <div class="relative w-[300px] shadow-lg rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmH9K1CWY3Hs7qAxmHeOPNqLNkWP8saw_MEU1avZNvVA&s=10" class="h-[200px] w-[300px] rounded-t-xl "/>
+            
+            <div class="p-6">
+                <h1 class="text-zinc-900 font-bold ">Nitro Vanilla Sweet Cream</h1>
+                <p class="text-zinc-600 pt-3">Nitrogen-infused smooth cold brew topped with vanilla  cream.</p>
+                <p class="text-[#3E2723] font-bold pt-3">price: $4.25</p>
+                <div class="absolute left-[-20px] top-[-10px] ">
+                    <h3 class="bg-green-50 text-green-800 p-1 rounded-lg animate-[bounce_2s_infinite]">⚡ Barista's Pick</h3>
+                </div>
+                <div><button class=" text-[#FCFAF7] bg-[#3E2723] font-bold rounded-lg w-[100%] mt-4 py-3">Order Now</button></div>
+            </div>
+        </div>
+
+        
+        <div  class="relative w-[300px]  shadow-lg rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIDkPCdbbYqTaZfY22pXvpPGH6X7TNJ1jumJr7UBfQZw&s=10" class="h-[200px] w-[300px] rounded-t-xl"/>
+            <div  class="p-6">
+                <h1 class="text-zinc-900 font-bold ">Brown Sugar Shaken Espresso</h1>
+                <p class="text-zinc-600 pt-3">Iced espresso shaken with brown sugar, cinnamon, and almond milk.</p>
+                <p class="text-[#3E2723] font-bold pt-3"> Price: $3.99</p>
+                <div class="absolute left-[-20px] top-[-10px]  ">
+                    <h3 class="bg-stone-100 text-stone-800 p-1 rounded-lg animate-[bounce_2s_infinite]">🧊 Iced Favorite</h3>
+                </div>
+                <div><button class=" text-[#FCFAF7] bg-[#3E2723] font-bold rounded-lg w-[100%] mt-4 py-3">Order Now</button></div>
+            </div>
+        </div>
+
+        <div  class="relative w-[300px]  shadow-lg rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgTLAyW3k4OIL69qFoPptYEv-Fnz72X0_as2_kYNLxug&s=10" class="h-[200px] w-[300px] rounded-t-xl"/>
+        
+        <div  class="p-6">
+            <h1 class="text-zinc-900 font-bold ">Smoked Sea Salt Caramel  Brew</h1>
+            <p class="text-zinc-600 pt-3">18-hour cold brew, sweet cream foam, smoked sea salt.</p>
+            <p class="text-[#3E2723] font-bold pt-3">Price: $4.49 </p>
+            <div class="absolute left-[-20px] top-[-10px] ">
+                    <h3 class="bg-amber-100 text-amber-800 p-1 rounded-lg animate-[bounce_2s_infinite]">❄️ Signature Chill</h3>
+                </div>
+                <div><button class=" text-[#FCFAF7] bg-[#3E2723] font-bold rounded-lg w-[100%] mt-4 py-3">Order Now</button></div>
+        </div>
+        </div>
+
+        </div>
+
+
+         <div>
+            <h3 class="text-xl sm:text-2xl font-bold tracking-tight text-[#3E2723] uppercase text-center mt-10 " >🌍 Premium Single-Origin Pour-Overs</h3>
+        </div>
+
+
+         <div class="flex flex-row justify-center flex-wrap gap-[80px] w-[full] p-12 ">
+
+        <div class="relative w-[300px] shadow-lg rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ15CvqmxUR9d0e_bBSxCjdwqBGbG5w-WUiCHF24BoEkQ&s=10" class="h-[200px] w-[300px] rounded-t-xl "/>
+            
+            <div class="p-6">
+                <h1 class="text-zinc-900 font-bold ">Ethiopian Yirgacheffe</h1>
+                <p class="text-zinc-600 pt-3"> Delicate, bright pour-over with citrus, bergamot, and tea-like notes.</p>
+                <p class="text-[#3E2723] font-bold pt-3">price: $3.50</p>
+                <div class="absolute left-[-20px] top-[-10px] ">
+                    <h3 class="bg-green-50 text-green-800 p-1 rounded-lg animate-[bounce_2s_infinite]">🍋 Light & Floral</h3>
+                </div>
+                <div><button class=" text-[#FCFAF7] bg-[#3E2723] font-bold rounded-lg w-[100%] mt-4 py-3">Order Now</button></div>
+            </div>
+        </div>
+
+        
+        <div  class="relative w-[300px]  shadow-lg rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FWXQH4gtJEyj8FWSUTUMP7SE448Kaz7jLj1VNQ_L3w&s=10" class="h-[200px] w-[300px] rounded-t-xl"/>
+            <div  class="p-6">
+                <h1 class="text-zinc-900 font-bold ">Sumatran Mandheling</h1>
+                <p class="text-zinc-600 pt-3">Heavy-bodied, low-acidity dark roast with cedar and dark chocolate.</p>
+                <p class="text-[#3E2723] font-bold pt-3"> Price: $3.50</p>
+                <div class="absolute left-[-20px] top-[-10px]  ">
+                    <h3 class="bg-amber-100 text-amber-800 p-1 rounded-lg animate-[bounce_2s_infinite]">🪵 Bold & Earthy</h3>
+                </div>
+                <div><button class=" text-[#FCFAF7] bg-[#3E2723] font-bold rounded-lg w-[100%] mt-4 py-3">Order Now</button></div>
+            </div>
+        </div>
+
+        <div  class="relative w-[300px]  shadow-lg rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWEnG5ibEWpru5q8_F_kpNZynxsuF9Ef5Ywj7hUW3IzQ&s=10" class="h-[200px] w-[300px] rounded-t-xl"/>
+        
+        <div  class="p-6">
+            <h1 class="text-zinc-900 font-bold ">Colombian Geisha</h1>
+            <p class="text-zinc-600 pt-3">Rare exotic pour-over with intense jasmine aromatics and raspberry finish.</p>
+            <p class="text-[#3E2723] font-bold pt-3">Price: $5.99 </p>
+            <div class="absolute left-[-20px] top-[-10px] ">
+                    <h3 class="bg-stone-100 text-stone-800 p-1 rounded-lg animate-[bounce_2s_infinite] ">💎 Rare & Exotic</h3>
+                </div>
+                <div><button class=" text-[#FCFAF7] bg-[#3E2723] font-bold rounded-lg w-[100%] mt-4 py-3">Order Now</button></div>
+        </div>
+        </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+  
+   
+
+    <section id="AboutUs" class="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-16">
+        
+       
+        <div class="w-full lg:w-1/2 flex justify-center">
+            <img src="https://images.unsplash.com/photo-1620807773206-49c1f2957417?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwc2hvcCUyMGJsZW5kJTIwbWFjaGluZXxlbnwwfHwwfHx8MA%3D%3D" 
+                 class="rounded-2xl w-full max-w-md lg:max-w-full h-[300px] sm:h-[400px] lg:h-[450px] object-cover shadow-md" 
+                 alt="Coffee Extraction Machine"/>
+        </div>
+        
+        <!-- Text Wrapper (Full width on mobile, 50% on desktop) -->
+        <div class="w-full lg:w-1/2 space-y-4 text-center lg:text-left">
+            <h1 class="text-[#C59463] text-5xl sm:text-6xl lg:text-[75px] font-bold leading-none tracking-tight">
+                Our Story
+            </h1>
+            <h2 class="text-[#3E2723] text-2xl sm:text-3xl lg:text-[43px] font-semibold leading-tight">
+                From Bean to Cup, with Love.
+            </h2>
+            <p class="text-[#271816] text-sm sm:text-base lg:text-lg leading-relaxed pt-2">
+                Founded in 2024, <span class="font-bold text-[#3E2723]">The Daily Grind</span> started as a small passion project among lifelong friends. We believe coffee is more than just a morning caffeine kick—it is a daily ritual that connects communities. We partner directly with sustainable farmers to bring you the highest-grade beans, carefully roasting each batch in-house to unlock perfect, distinctive flavors. Come pull up a chair, take a sip, and make yourself at home.
+            </p>
+        </div>
+        
+    </div>
+</section>
+    
+
+<section class="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 md:space-y-16">
+
+    <div class="text-center space-y-2">
+        <h1 class="text-[#3E2723] font-bold text-3xl sm:text-4xl md:text-[40px] tracking-tight">
+            What Our Customers Say
+        </h1>
+        <h2 class="text-[#C59463] text-sm sm:text-base md:text-[20px] font-medium tracking-wider">
+            Testimonials
+        </h2>
+    </div>
+
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 xl:gap-8">
+        
+        <!-- Testimonial Card 1 -->
+        <div class="bg-white shadow-lg p-6 sm:p-8 rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl border border-zinc-100 flex flex-col justify-between">
+            <div class="space-y-4">
+                <h1 class="text-sm">⭐⭐⭐⭐⭐</h1>
+                <p class="text-sm text-[#271816] leading-relaxed font-medium">  
+                    "The signature <span class="font-bold text-[#3E2723]">S-S-C Cold Brew</span> is easily the best in Hyderabad. That smoked sea salt cream cold foam is absolute perfection."
+                </p>
+            </div>
+            <div class="mt-6 pt-6 border-t border-zinc-100">
+                <h4 class="text-sm font-bold text-[#3E2723]">Arjun K.</h4>
+                <span class="text-xs text-zinc-400 font-medium">Verified Regular</span>
+            </div>
+        </div>
+
+        <!-- Testimonial Card 2 -->
+        <div class="bg-white shadow-lg p-6 sm:p-8 rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl border border-zinc-100 flex flex-col justify-between">
+            <div class="space-y-4">
+                <h1 class="text-sm">⭐⭐⭐⭐⭐</h1>
+                <p class="text-sm text-[#271816] leading-relaxed font-medium">  
+                    "I love the warm, cozy vibe here. The <span class="font-bold text-[#3E2723]">Honey Lavender Macchiato</span> is beautifully balanced and not overly sweet. My absolute daily ritual!"
+                </p>
+            </div>
+            <div class="mt-6 pt-6 border-t border-zinc-100">
+                <h4 class="text-sm font-bold text-[#3E2723]">Sneha R.</h4>
+                <span class="text-xs text-zinc-400 font-medium">Local Guide</span>
+            </div>
+        </div>
+
+        <!-- Testimonial Card 3 -->
+        <div class="bg-white shadow-lg p-6 sm:p-8 rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl border border-zinc-100 flex flex-col justify-between">
+            <div class="space-y-4">
+                <h1 class="text-sm">⭐⭐⭐⭐⭐</h1>
+                <p class="text-sm text-[#271816] leading-relaxed font-medium">  
+                    "The perfect spot to pull up a chair and tap into your morning workflow. Incredible single-origin pour-overs and excellent baristas."
+                </p>
+            </div>
+            <div class="mt-6 pt-6 border-t border-zinc-100">
+                <h4 class="text-sm font-bold text-[#3E2723]">Rahul M.</h4>
+                <span class="text-xs text-zinc-400 font-medium">Digital Nomad</span>
+            </div>
+        </div>
+
+        <!-- Testimonial Card 4 -->
+        <div class="bg-white shadow-lg p-6 sm:p-8 rounded-[20px] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl border border-zinc-100 flex flex-col justify-between">
+            <div class="space-y-4">
+                <h1 class="text-sm">⭐⭐⭐⭐⭐</h1>
+                <p class="text-sm text-[#271816] leading-relaxed font-medium">  
+                    "The freshly baked almond croissants paired with their <span class="font-bold text-[#3E2723]">Colombian Geisha</span> pour-over is a top-tier luxury experience. Highly recommend!"
+                </p>
+            </div>
+            <div class="mt-6 pt-6 border-t border-zinc-100">
+                <h4 class="text-sm font-bold text-[#3E2723]">Priya S.</h4>
+                <span class="text-xs text-zinc-400 font-medium">Coffee Connoisseur</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <section id="contact" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+  
+  
+  <div class="text-center space-y-3">
+    <h2 class="serif-font text-4xl sm:text-5xl font-extrabold text-[#3E2723] tracking-tight">
+      Find Us & Get In Touch
+    </h2>
+    <h3 class="text-xs font-bold tracking-widest text-[#C59463] uppercase block">
+      Our Location
+    </h3>
+  </div>
+
+ 
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+    
+    
+    <div class="bg-gradient-to-br from-[#3E2723] to-[#271816] text-[#FCFAF7] p-10 rounded-3xl shadow-xl flex flex-col justify-between relative overflow-hidden">
+    
+      <div class="absolute w-40 h-40 rounded-full bg-white/5 blur-2xl top-0 right-0 pointer-events-none"></div>
+      
+      <div class="space-y-8 relative z-10">
+        <h3 class="serif-font text-3xl font-bold tracking-tight text-[#D4A373]">Café Coordinates</h3>
+        
+        <div class="space-y-6 text-zinc-300">
+    
+          <div class="flex items-start gap-4">
+            <span class="text-2xl bg-white/10 p-2.5 rounded-2xl text-[#D4A373]">📍</span> 
+            <p class="text-sm sm:text-base pt-1">
+              <strong class="text-white block font-semibold mb-0.5">Address:</strong> 
+              123 Espresso Lane, Coffee District, Hyderabad, Telangana, 500001
+            </p>
+          </div>
+          
+          <div class="flex items-center gap-4">
+            <span class="text-2xl bg-white/10 p-2.5 rounded-2xl text-[#D4A373]">📞</span> 
+            <p class="text-sm sm:text-base">
+              <strong class="text-white font-semibold">Phone:</strong> +91 40 5555 0192
+            </p>
+          </div>
+          
+          <div class="flex items-center gap-4">
+            <span class="text-2xl bg-white/10 p-2.5 rounded-2xl text-[#D4A373]">✉️</span> 
+            <p class="text-sm sm:text-base">
+              <strong class="text-white font-semibold">Email:</strong> hello@roastandritual.com
+            </p>
+          </div>
+          <!-- Hours Field -->
+          <div class="flex items-start gap-4">
+            <span class="text-2xl bg-white/10 p-2.5 rounded-2xl text-[#D4A373]">🕒</span> 
+            <p class="text-sm sm:text-base pt-1">
+              <strong class="text-white block font-semibold mb-0.5">Operating Hours:</strong> 
+              Mon–Sun: 6:00 AM – 7:00 PM
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form class="bg-white p-10 rounded-3xl shadow-sm border border-zinc-200/60 space-y-5 flex flex-col justify-center" onsubmit="event.preventDefault();">
+      <h3 class="text-2xl font-bold text-zinc-900 tracking-tight">Drop Us a Message</h3>
+      
+      <div class="space-y-1">
+        <label class="block text-[11px] font-bold text-zinc-400 uppercase tracking-wider">Your Full Name</label>
+        <input type="text" placeholder="John Doe" class="w-full bg-zinc-50/50 border border-zinc-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-[#3E2723] focus:bg-white transition-all">
+      </div>
+      
+      <div class="space-y-1">
+        <label class="block text-[11px] font-bold text-zinc-400 uppercase tracking-wider">Your Email Address</label>
+        <input type="email" placeholder="john@example.com" class="w-full bg-zinc-50/50 border border-zinc-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-[#3E2723] focus:bg-white transition-all">
+      </div>
+      
+      <div class="space-y-1">
+        <label class="block text-[11px] font-bold text-zinc-400 uppercase tracking-wider">Your Message</label>
+        <textarea rows="4" placeholder="How can our baristas serve you?" class="w-full bg-zinc-50/50 border border-zinc-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-[#3E2723] focus:bg-white transition-all resize-none"></textarea>
+      </div>
+      
+    
+      <button type="submit" class="w-full bg-[#3E2723] hover:bg-[#271816] text-white font-bold py-4 rounded-xl shadow-md shadow-[#3E2723]/10 transform active:scale-98 transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-xl">
+        Send Message
+      </button>
+    </form>
+  </div>
+
+  
+
+</section>
+
+
+<footer class="bg-zinc-950 text-zinc-400 pt-16 md:pt-20 pb-8 border-t border-zinc-900">
+  
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-12 md:mb-16">
+    
+    
+    <div class="space-y-4">
+      <span class="text-2xl font-extrabold bg-gradient-to-r from-[#FCFAF7] to-[#D4A373] bg-clip-text text-transparent tracking-tight block">🍂 Velvet Bean Café
+        
+      </span>
+      <p class="text-sm text-zinc-500 leading-relaxed max-w-xs">
+        Crafting unique daily coffee rituals, one perfect micro-roasted bean collection at a time.
+      </p>
+    </div>
+
+
+    <div class="space-y-4">
+      <h4 class="text-white font-bold text-xs uppercase tracking-widest">Explore</h4>
+      <ul class="space-y-2.5 text-sm font-medium">
+        <li><a href="#home" class="hover:text-[#D4A373] transition-colors duration-200">Home</a></li>
+        <li><a href="#ourblends" class="hover:text-[#D4A373] transition-colors duration-200">Our Menu</a></li>
+        <li><a href="#AboutUs" class="hover:text-[#D4A373] transition-colors duration-200">Our Story</a></li>
+        <li><a href="#contact" class="hover:text-[#D4A373] transition-colors duration-200">Contact Us</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="space-y-4">
+      <h4 class="text-white font-bold text-xs uppercase tracking-widest">Follow the Brew</h4>
+      <ul class="space-y-2.5 text-sm font-medium">
+        <li><a href="#" class="hover:text-white transition-colors duration-200 flex items-center gap-2">📸 Instagram</a></li>
+        <li><a href="#" class="hover:text-white transition-colors duration-200 flex items-center gap-2">👥 Facebook</a></li>
+        <li><a href="#" class="hover:text-white transition-colors duration-200 flex items-center gap-2">🎵 TikTok</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="space-y-4">
+      <h4 class="text-white font-bold text-xs uppercase tracking-widest">Utility Links</h4>
+      <ul class="space-y-2.5 text-sm font-medium">
+        <li><a href="#" class="hover:text-white transition-colors duration-200">Privacy Policy</a></li>
+        <li><a href="#" class="hover:text-white transition-colors duration-200">Terms of Service</a></li>
+        <li><a href="#contact" class="hover:text-white transition-colors duration-200">Catering Inquiry</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+ 
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-zinc-900/60 text-center text-xs text-zinc-600 font-medium">
+    <p>; 2026 Roast & Ritual. All rights reserved. Crafted beautifully with Tailwind CSS.</p>
+  </div>
+</footer>
+
+
+    
+</body>
+</html>
